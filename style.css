@@ -1,0 +1,40 @@
+body {
+    background-color: #282c34;
+    color: #abb2bf;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+code {
+    display: block;
+    background-color: #282c34;
+    padding: 20px;
+    border-radius: 8px;
+    color: #abb2bf;
+}
+
+code::before,
+code::after {
+    content: '\00a0'; /* non-breaking space */
+}
+
+code span.keyword {
+    color: #c678dd;
+}
+
+code span.string {
+    color: #98c379;
+}
+
+code span.comment {
+    color: #5c6370;
+    font-style: italic;
+}
