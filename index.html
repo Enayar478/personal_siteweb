@@ -1,177 +1,382 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Analyste de Données</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <pre>
-<code>
-# Curieux Éternel & Bidouilleur de Données 👨‍🚀
-# Analyste de Données ▪️ Tracking & Scraping 🫶🏼
-
-class AnalysteDeDonnees:
-    def __init__(self):
-        self.informations_contact()
-        self.resume()
-        self.experience()
-        self.formation()
-        self.certifications()
-        self.competences()
-        self.langues()
-        self.interets()
-        self.activites()
-
-    def informations_contact(self):
-        self.nom = "Ton Nom"
-        self.adresse = "Ton Adresse"
-        self.telephone = "Ton Numéro de Téléphone"
-        self.email = "Ton Email"
-        self.linkedin = "Ton Profil LinkedIn"
-
-    def resume(self):
-        self.resume = """
-        Analyste de Données passionné, spécialisé dans l'extraction, la visualisation 
-        et l'automatisation des données. Expert en SEO et en analyse web avec un 
-        intérêt marqué pour les stratégies de croissance basées sur les données.
-        """
-
-    def experience(self):
-        self.experience = [
-            {
-                "poste": "Freelance | Analyste de Données - Tracking & Scraping - DataViz",
-                "duree": "Mars 2022 - Aujourd'hui | France · Hybride",
-                "responsabilites": [
-                    "Développement et maintenance de tableaux de bord interactifs (Looker Studio, GA)",
-                    "Extraction et scraping de données (Python, SQL)",
-                    "Mise en œuvre de stratégies SEO et de growth hacking",
-                    "Automatisation des campagnes marketing"
-                ]
-            },
-            {
-                "poste": "Acces Industrie | Analyste Marketing de Données - CRM & DataViz",
-                "duree": "Août 2018 - Décembre 2021 | Bordeaux, France · Hybride",
-                "responsabilites": [
-                    "Analyse CRM stratégique et tableaux de bord avancés",
-                    "Automatisation personnalisée et scoring avancé",
-                    "Campagnes emailing stratégiques et techniques d'acquisition novatrices",
-                    "Gestion de blog engageant"
-                ]
-            },
-            {
-                "poste": "MOONDA | Traffic Manager - Analyste Web & Tracking",
-                "duree": "Août 2017 - Août 2018 | Bordeaux, France · Sur site",
-                "responsabilites": [
-                    "SEO technique et sémantique avancé",
-                    "Diffusion ciblée de contenu",
-                    "Tracking en temps réel et analyses approfondies",
-                    "Tableaux de bord dynamiques et communication client"
-                ]
-            },
-            {
-                "poste": "Tauziet&Co | Analyste Web",
-                "duree": "Mars 2017 - Août 2017 | Bordeaux, France",
-                "responsabilites": [
-                    "Création de rapports analytiques percutants (Excel, Google Data Studio)",
-                    "Gestion des campagnes Google Ads",
-                    "Suivi détaillé du ROI et optimisation des campagnes emailing"
-                ]
-            }
-        ]
-
-    def formation(self):
-        self.formation = [
-            {
-                "institution": "Le Wagon",
-                "diplome": "Analyste de Données",
-                "dates": "Juillet 2024 - Août 2024",
-                "details": """
-                - Sourcing des données, analyse de données diverses, intégration API, outils no-code,
-                tracking web, DataViz, apprentissage automatique, projet pratique.
-                - Compétences : SQL, Python, BigQuery, dbt, GA4, Power BI, Tableau, Looker Studio
-                """
-            },
-            {
-                "institution": "ECV - École de création visuelle",
-                "diplome": "Master en Web Marketing",
-                "dates": "Sept. 2017 - Sept. 2019"
-            },
-            {
-                "institution": "ECV - École de création visuelle",
-                "diplome": "Bachelor Chef de Projet Web",
-                "dates": "Sept. 2016 - Juil. 2017"
-            },
-            {
-                "institution": "Université de Bordeaux",
-                "diplome": "DUT en Gestion Administrative et Commerciale des Organisations (GACO)",
-                "dates": "Sept. 2014 - Juil. 2016"
-            },
-            {
-                "institution": "Lycée Val de Garonne",
-                "diplome": "Baccalauréat en Sciences et Techniques du Management et de la Gestion (STMG)",
-                "dates": "Sept. 2011 - Juil. 2014",
-                "details": "Mention Bien"
-            }
-        ]
-
-    def certifications(self):
-        self.certifications = [
-            {
-                "titre": "Marketing par Email",
-                "emetteur": "HubSpot Academy",
-                "date_emission": "Oct. 2023",
-                "date_expiration": "Oct. 2025",
-                "id": "72ef4aa9e3f24d64bf12f8240f1c6699"
-            },
-            {
-                "titre": "Booster d'Excellence",
-                "emetteur": "by STEVE",
-                "date_emission": "Jan. 2023"
-            },
-            {
-                "titre": "Immersion Growth Marketing",
-                "emetteur": "Growth Tribe",
-                "date_emission": "Oct. 2021"
-            },
-            {
-                "titre": "Data Mining",
-                "emetteur": "Coheris - CRM & Analytics ES",
-                "date_emission": "Sept. 2021"
-            },
-            {
-                "titre": "Comprenez votre audience avec Google Analytics",
-                "emetteur": "OpenClassrooms",
-                "date_emission": "Mars 2017",
-                "id": "1194665019"
-            }
-        ]
-
-    def competences(self):
-        self.competences = {
-            "langages": ["SQL", "Python"],
-            "outils_BI": ["Power BI", "Tableau", "Looker Studio"],
-            "outils_donnees": ["BigQuery", "dbt", "GA4", "Google Tag Manager"],
-            "autres_competences": ["Scraping web", "Automatisation", "SEO", "Growth hacking"]
-        }
-
-    def langues(self):
-        self.langues = {
-            "Français": "Langue Maternelle",
-            "Anglais": "Courant"
-        }
-
-    def interets(self):
-        self.interets = ["Data Science", "Voyages", "Sports"]
-
-    def activites(self):
-        self.activites = ["UNSS Rugby & Golf (Finaliste Championnat de France)"]
-
-# Instanciation de la classe pour afficher le CV
-cv = AnalysteDeDonnees()
-print(cv)
-</code>
-</pre>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">John Doe</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">John Doe</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+              reprehenderit et laborum, rem, dolore eum quod voluptate
+              exercitationem nobis, nihil esse debitis maxime facere minus sint
+              delectus velit in eos quo officiis explicabo deleniti dignissimos.
+              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+              reiciendis ea magnam? Nulla, impedit fuga!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
