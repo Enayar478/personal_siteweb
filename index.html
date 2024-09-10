@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Rayane Guerrouah - Discover my portfolio and my universe</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   </head>
+
+  <!-- START construction-banner -->
   <body>
+    <div id="construction-banner">
+      <p>🚧 Site en cours de construction 🚧</p>
+    </div>    
+  <!-- END construction-banner -->
+    
+
+    <!-- START Nav section -->
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">RG.</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -21,7 +31,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Rayane Guerrouah</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -36,18 +46,23 @@
         </div>
       </div>
     </nav>
+    <!-- END Nav section -->
+
+
+
+    <!-- START Profile section -->
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/profile-pic-round.jpg" alt="Rayane Guerrouah profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <h1 class="title">Rayane Guerrouah</h1>
+        <p class="section__text__p2">Data Analyst</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/CV-DataAnalyst-RG.pdf')"
           >
             Download CV
           </button>
@@ -60,24 +75,28 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/rayane-grh'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/Enayar478'"
           />
         </div>
       </div>
     </section>
+    <!-- END Profil section -->
+
+
+    <!-- START About section -->
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <h2 class="title">About Me</h2>
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/profile-pic-2-round.jpg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -90,8 +109,8 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <h3>Experiences</h3>
+              <p>7 years <br />Traffic management & Web Analytics</p>
             </div>
             <div class="details-container">
               <img
@@ -100,18 +119,15 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>License in Data Analytics<br />Master's Degree in Webmarketing<br />Bachelor's Degree in Web Project Management<br />DUT in Business and Administration</p>
             </div>
           </div>
           <div class="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
+            <p>Driven by a deep curiosity for data analysis, I began my journey in web analytics and tracking, which sparked a passion for exploring the vast potential of data. At Le Wagon Bordeaux, I enhanced my expertise in Python, SQL, and big data, mastering API integrations, automation, and more.</p>
+            <br>
+            <p>I thrive on turning raw data into meaningful insights, leveraging tools like Pandas, Plotly, and Tableau to create interactive dashboards. Currently, I’m focused on pushing the boundaries of data presentation by developing visually compelling dashboards with Dash by Plotly and Django.</p>
+            <br>
+            <p>I’m excited to contribute to innovative projects and collaborate with teams that value data-driven decision-making. With a continuous desire to learn and grow, I look forward to applying my skills and enthusiasm to new challenges.</p>
           </div>
         </div>
       </div>
@@ -122,9 +138,12 @@
         onclick="location.href='./#experience'"
       />
     </section>
+    <!-- END About section -->
+
+    <!-- START Experience section -->
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Experiences</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
@@ -256,6 +275,10 @@
         onclick="location.href='./#projects'"
       />
     </section>
+    <!-- END Experience section -->
+
+
+    <!-- START Projects section -->
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -342,6 +365,10 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    <!-- END Projects section -->
+
+
+    <!-- START Contact section -->
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -360,10 +387,14 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/rayane-grh">LinkedIn</a></p>
         </div>
       </div>
     </section>
+    <!-- END Contact section -->
+
+
+    <!-- START FOOTER section -->
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -375,8 +406,19 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Rayane Guerrouah. All Rights Reserved.</p>
     </footer>
+    <!-- END FOOTER section -->
+
+
     <script src="script.js"></script>
   </body>
 </html>
+
+
+<!-- Background black : #222222
+vert foncé : #0d6241
+vert clair : #94a06e
+blanc crème : #f2eee9
+rouge : #ff0707
+orange : #f2810b -->
